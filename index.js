@@ -1,6 +1,6 @@
 
-let nome_heroi = input("Digite o nome do herói:" )
-let xpHeroi = parseInt(input("Digite a quantidade de xp do heroi"));
+let nome_heroi = prompt("Digite o nome do herói:" )
+let xpHeroi = parseInt(prompt("Digite a quantidade de xp do heroi"));
 let nivelHeroi = "";
 if (xpHeroi < 1000) {
     nivelHeroi = "Ferro";
@@ -19,4 +19,4 @@ if (xpHeroi < 1000) {
 } else {
     nivelHeroi = "Radiante";
 }
-console.log("O Herói de nome " + nome_heroi + " está no nível de " + nivelHeroi);
+alert("O Herói de nome " + nome_heroi + " está no nível de " + nivelHeroi);
